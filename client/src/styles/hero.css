@@ -1,0 +1,71 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  border: 2px solid var(--hc-red);
+  margin: 10px 30px 0px 30px;
+  border-radius: 30px;
+  font-family: "Phantom Sans";
+  background-color: #1d1b26;
+}
+
+.head {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--hc-red);
+  font-family: "Phantom Sans";
+  letter-spacing: 2px;
+}
+
+.another-head {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: "Phantom Sans";
+  letter-spacing: 2px;
+}
+
+.subhead {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: var(--hc-muted);
+  font-family: "Phantom Sans";
+  letter-spacing: 2px;
+}
+
+.another-subhead {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: var(--hc-muted);
+  font-family: "Phantom Sans";
+  letter-spacing: 2px;
+}
+
+.btn-area {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.projects-btn {
+  background-color: transparent;
+  color: var(--hc-red);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-family: "Phantom Sans";
+  letter-spacing: 1px;
+  border: 1px solid var(--hc-red);
+}

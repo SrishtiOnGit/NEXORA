@@ -1,0 +1,48 @@
+.leadership {
+  margin: 80px 40px;
+}
+
+.section-p {
+  font-family: "Phantom Sans";
+  color: var(--hc-muted);
+  font-size: 14px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.leaders {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.leaders-card {
+  padding: 35px;
+  background: #1d1b26;
+  border: 1px solid #34313e;
+  border-radius: 16px;
+}
+
+.leaders-card h2 {
+  font-family: "Phantom Sans";
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.leaders-card span {
+  font-family: "Phantom Sans";
+  color: var(--hc-red);
+  font-size: 14px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.leaders-card p {
+  font-family: "Phantom Sans";
+  color: var(--hc-muted);
+  font-size: 14px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}

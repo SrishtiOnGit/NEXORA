@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1d1b26;
+  color: #fff;
+  font-family: "Phantom Sans";
+  letter-spacing: 2px;
+}
+
+.footer-p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--hc-muted);
+  font-family: "Phantom Sans";
+  letter-spacing: 2px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.hc-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.hc-link:hover {
+  text-decoration: underline;
+}

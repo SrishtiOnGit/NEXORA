@@ -1,0 +1,57 @@
+.why-join {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  color: var(--hc-muted);
+  font-family: "Phantom Sans";
+  letter-spacing: 2px;
+  text-align: left;
+  width: 100%;
+  margin-left: 70px;
+}
+
+.notes {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.note {
+  margin: 50px 30px;
+  padding: 40px;
+  background-color: #1d1b26;
+  border: 1px solid #34313e;
+  border-radius: 16px;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+  font-family: "Phantom Sans";
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--hc-muted);
+  font-family: "Phantom Sans", sans-serif;
+  margin: 0;
+}
+
+.note:hover {
+  box-shadow: 0 0 20px rgba(236, 55, 80, 0.4);
+}

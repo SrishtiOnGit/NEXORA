@@ -1,0 +1,106 @@
+.navbar {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  padding: 0 100px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  font-family: "Phantom Sans";
+  z-index: 10;
+}
+
+.logo {
+  margin-left: 70px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Phantom Sans";
+  letter-spacing: 2px;
+}
+.sub-text {
+  font-size: 18px;
+  color: var(--hc-red);
+  margin-top: 5px;
+  margin-left: 3px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  margin-right: 20px;
+}
+
+.list li a {
+  color: var(--hc-muted);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  font-family: "Phantom Sans";
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.list li a:hover {
+  color: white;
+}
+
+.list li a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: var(--hc-red);
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.3s ease;
+}
+
+.list li a:hover::after {
+  transform: scaleX(1);
+}
+
+.button-space {
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  background-color: var(--hc-red);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-family: "Phantom Sans";
+  letter-spacing: 1px;
+}
+
+.login:hover {
+  background-color: transparent;
+  border: 2px solid var(--hc-red);
+  color: var(--hc-red);
+  padding: 8px 18px;
+}

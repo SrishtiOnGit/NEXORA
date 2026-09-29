@@ -44,23 +44,9 @@
   --hc-purple: #a633d6;
   --hc-muted: #8492a6;
 
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  --background: #171717;
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Phantom Sans", system-ui, sans-serif;
-  background: var(--background);
-  color: var(--foreground);
-  -webkit-font-smoothing: antialiased;
 }
