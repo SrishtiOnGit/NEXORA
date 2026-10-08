@@ -1,6 +1,8 @@
 import "../styles/hero.css";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigate = useNavigate();
   return (
     <div className="hero">
       <h1 className="head">BUILD. CREATE. EXPLORE.</h1>
@@ -12,7 +14,9 @@ const Hero = () => {
       </p>
       <div className="btn-area">
         <button className="login">Join Nexora</button>
-        <button className="projects-btn">Explore Projects</button>
+        <button className="projects-btn" onClick={() => navigate("/projects")}>
+          Explore Projects
+        </button>
       </div>
     </div>
   );
