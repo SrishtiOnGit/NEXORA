@@ -1,0 +1,38 @@
+.events {
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.events-2 {
+  font-family: "Phantom Sans";
+  color: var(--hc-muted);
+  font-size: 14px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  background-color: #1d1b26;
+  border: 1px solid #34313e;
+  border-radius: 16px;
+  padding: 20px;
+  width: 1000px;
+  height: 100px;
+}
+
+.events h1 {
+  font-family: "Phantom Sans";
+  color: var(--hc-red);
+  font-size: 50px;
+  margin-bottom: 5rem;
+  letter-spacing: 2px;
+}
+
+.events-2 h1 {
+  font-family: "Phantom Sans";
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}

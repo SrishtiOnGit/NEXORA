@@ -20,10 +20,7 @@ const Navbar = () => {
             <NavLink to="/projects">Projects</NavLink>
           </li>
           <li>
-            <NavLink to="/timeline">Timeline</NavLink>
-          </li>
-          <li>
-            <NavLink to="/timeline">Sponsors</NavLink>
+            <NavLink to="/sponsors">Sponsors</NavLink>
           </li>
         </ul>
         <div className="button-space">
