@@ -4,8 +4,8 @@ It's a student-led coding club under Hack Club where students can learn while bu
 
 ## Live Demo and Github Repository Link:
 
-![Live Demo] (https://srishtiongit.github.io/NEXORA/)
-![Github Repo] (https://github.com/SrishtiOnGit/NEXORA)
+[Live Demo] (https://srishtiongit.github.io/NEXORA/)
+[Github Repo] (https://github.com/SrishtiOnGit/NEXORA)
 
 ## About NEXORA :
 
@@ -43,4 +43,4 @@ npm install
 npm run dev
 ```
 
-**_Author_** : ![Srishti Srivastava](https://github.com/SrishtiOnGit)
+**_Author_** : [Srishti Srivastava](https://github.com/SrishtiOnGit)
